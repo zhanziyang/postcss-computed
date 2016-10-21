@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A postcss plugin helps to write and call JavaScript functions in css.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhanziyang/postcss-func"
+  },
   "scripts": {
     "test": "ava test.js",
     "prepublish": "npm run login",

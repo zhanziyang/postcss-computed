@@ -1,2 +1,2 @@
-# postcss-func
-A postcss plugin helps to write and call JavaScript functions in css.
+# postcss-computed
+A postcss plugin helps to write and call JavaScript functions in css for computed values.

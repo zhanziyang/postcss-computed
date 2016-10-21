@@ -1,0 +1,21 @@
+{
+  "name": "postcss-func",
+  "version": "1.0.0",
+  "description": "A postcss plugin helps to write and call JavaScript functions in css.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test.js",
+    "prepublish": "npm run login",
+    "prelogin": "npm config set registry http://registry.npmjs.org",
+    "login": "npm adduser",
+    "postpublish": "npm config set registry http://registry.cnpmjs.org"
+  },
+  "author": "zhanziyang",
+  "license": "ISC",
+  "dependencies": {
+    "postcss": "^5.2.4"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0"
+  }
+}

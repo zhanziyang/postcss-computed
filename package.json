@@ -1,16 +1,23 @@
 {
-  "name": "postcss-func",
+  "name": "postcss-computed",
   "version": "1.0.0",
   "description": "A postcss plugin helps to write and call JavaScript functions in css.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhanziyang/postcss-func"
+    "url": "https://github.com/zhanziyang/postcss-computed"
   },
   "scripts": {
     "test": "ava test.js"
   },
   "author": "zhanziyang",
+  "keywords": [
+    "functions",
+    "javascript",
+    "postcss-plugin",
+    "css",
+    "postcss"
+  ],
   "license": "ISC",
   "dependencies": {
     "postcss": "^5.2.4"

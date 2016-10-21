@@ -8,11 +8,7 @@
     "url": "https://github.com/zhanziyang/postcss-func"
   },
   "scripts": {
-    "test": "ava test.js",
-    "prepublish": "npm run login",
-    "prelogin": "npm config set registry http://registry.npmjs.org",
-    "login": "npm adduser",
-    "postpublish": "npm config set registry http://registry.cnpmjs.org"
+    "test": "ava test.js"
   },
   "author": "zhanziyang",
   "license": "ISC",

@@ -1,6 +1,6 @@
 {
   "name": "postcss-computed",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A postcss plugin helps to write and call JavaScript functions in css for computed values.",
   "main": "index.js",
   "repository": {
